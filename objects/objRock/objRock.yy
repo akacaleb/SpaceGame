@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayerOne",
-    "path": "sprites/sprPlayerOne/sprPlayerOne.yy",
+    "name": "sprLargeRock",
+    "path": "sprites/sprLargeRock/sprLargeRock.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Players",
-    "path": "folders/Objects/Players.yy",
+    "name": "Rocks",
+    "path": "folders/Objects/Rocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayerOne",
+  "name": "objRock",
   "tags": [],
   "resourceType": "GMObject",
 }

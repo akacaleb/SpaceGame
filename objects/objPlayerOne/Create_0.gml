@@ -1,0 +1,2 @@
+/// @description variables for objPlayerOne
+
