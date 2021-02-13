@@ -1,5 +1,5 @@
 /// @description variables
 
-turnSpeed = 5;
+turnSpeed = 4;
 playerSpeed = 0.05;
 playerMaxSpeed = 10;
