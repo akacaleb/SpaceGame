@@ -1,10 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"sprPlayerOneBullet","path":"sprites/sprPlayerOneBullet/sprPlayerOneBullet.yy",},"order":1,},
     {"id":{"name":"rmRoom","path":"rooms/rmRoom/rmRoom.yy",},"order":0,},
+    {"id":{"name":"objMediumRock","path":"objects/objMediumRock/objMediumRock.yy",},"order":2,},
     {"id":{"name":"sprLargeRock","path":"sprites/sprLargeRock/sprLargeRock.yy",},"order":2,},
     {"id":{"name":"sprPlayerOne","path":"sprites/sprPlayerOne/sprPlayerOne.yy",},"order":0,},
-    {"id":{"name":"objRock","path":"objects/objRock/objRock.yy",},"order":0,},
+    {"id":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"order":1,},
+    {"id":{"name":"objRockController","path":"objects/objRockController/objRockController.yy",},"order":0,},
     {"id":{"name":"sprMediumRock","path":"sprites/sprMediumRock/sprMediumRock.yy",},"order":1,},
+    {"id":{"name":"objSmallRock","path":"objects/objSmallRock/objSmallRock.yy",},"order":3,},
+    {"id":{"name":"objLargeRock","path":"objects/objLargeRock/objLargeRock.yy",},"order":1,},
     {"id":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"order":0,},
     {"id":{"name":"sprSmallRock","path":"sprites/sprSmallRock/sprSmallRock.yy",},"order":0,},
   ],
@@ -41,7 +46,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Rocks.yy","order":2,"resourceVersion":"1.0","name":"Rocks","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Players.yy","order":3,"resourceVersion":"1.0","name":"Players","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Players.yy","order":0,"resourceVersion":"1.0","name":"Players","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Player One.yy","order":0,"resourceVersion":"1.0","name":"Player One","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Rocks.yy","order":1,"resourceVersion":"1.0","name":"Rocks","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [

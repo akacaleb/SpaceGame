@@ -23,12 +23,15 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objSmallRock","path":"objects/objSmallRock/objSmallRock.yy",},"parent":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objMediumRock","path":"objects/objMediumRock/objMediumRock.yy",},"parent":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objLargeRock","path":"objects/objLargeRock/objLargeRock.yy",},"parent":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Players",
-    "path": "folders/Objects/Players.yy",
+    "name": "Player One",
+    "path": "folders/Objects/Player One.yy",
   },
   "resourceVersion": "1.0",
   "name": "objPlayerOne",

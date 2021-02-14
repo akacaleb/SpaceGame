@@ -6,6 +6,7 @@ strafeLeft = keyboard_check(ord("Q")) || gamepad_button_check(0, gp_shoulderlb);
 strafeRight = keyboard_check(ord("E")) || gamepad_button_check(0, gp_shoulderrb);
 goThrusters = keyboard_check(ord("W")) || gamepad_button_check(0, gp_padu);
 stopThrusters = keyboard_check(ord("S")) || gamepad_button_check(0, gp_padd);
+shipShoot = keyboard_check_pressed(vk_space) || gamepad_button_check(0, gp_face1);
 
 //MOVEMENT
 
@@ -43,6 +44,11 @@ else
 	friction = 0;	
 }
 
+if shipShoot
+{
+	var inst = instance_create_layer(x, y, "Instances", objPlayerOneBullet);
+	inst.direction = image_angle;
+}
 
 move_wrap(true, true, sprite_width/2);
 
