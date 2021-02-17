@@ -1,6 +1,8 @@
 /// @description destroy and spawn
 score += 20 // killing small rocks is 20
 
+audio_play_sound(sndRockDeath, 1, false);
+
 instance_destroy();
 
 with (other)

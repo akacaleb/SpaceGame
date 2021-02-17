@@ -26,16 +26,19 @@ if turnRight //rotate ship to the right
 if strafeLeft && abs(speed) <= playerMaxSpeed //strafe ship to the left
 {
 	motion_add(image_angle + 90, playerSpeed);
+	audio_play_sound(sndPlayerOneEngine, 2, false);
 }
 
 if strafeRight && abs(speed) <= playerMaxSpeed //strafe ship to the right
 {
 	motion_add(image_angle - 90, playerSpeed);
+	audio_play_sound(sndPlayerOneEngine, 2, false);
 }
 
 if goThrusters && abs(speed) <= playerMaxSpeed //accelerate ship forwards
 {
-	motion_add(image_angle, playerSpeed);	
+	motion_add(image_angle, playerSpeed);
+	audio_play_sound(sndPlayerOneEngine, 2, false);
 }
 
 if stopThrusters && abs(speed) > 0 //bring the ship to a stop
@@ -55,6 +58,7 @@ if shipShoot // shoot bullet
 	var _yy = y + lengthdir_y(18, image_angle);  // adjust y position of bullet spawn
 	var inst = instance_create_layer(_xx, _yy, "Instances", objPlayerOneBullet); // spawn bullet at nose
 	inst.direction = image_angle; // bullets shoot the direction ship is flying
+	audio_play_sound(sndPlayerOneShoot, 1, false);
 }
 
 move_wrap(true, true, sprite_width/2);
