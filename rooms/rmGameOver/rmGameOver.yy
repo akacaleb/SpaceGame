@@ -24,7 +24,7 @@
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1024,
+    "Width": 1366,
     "Height": 768,
     "persistent": false,
   },
@@ -46,7 +46,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "rmRoom",
+  "name": "rmGameOver",
   "tags": [],
   "resourceType": "GMRoom",
 }

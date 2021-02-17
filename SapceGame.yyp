@@ -2,11 +2,14 @@
   "resources": [
     {"id":{"name":"objRocks","path":"objects/objRocks/objRocks.yy",},"order":0,},
     {"id":{"name":"sprPlayerOneBullet","path":"sprites/sprPlayerOneBullet/sprPlayerOneBullet.yy",},"order":1,},
+    {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},"order":1,},
     {"id":{"name":"rmRoom","path":"rooms/rmRoom/rmRoom.yy",},"order":0,},
     {"id":{"name":"objDebris","path":"objects/objDebris/objDebris.yy",},"order":2,},
     {"id":{"name":"fntText","path":"fonts/fntText/fntText.yy",},"order":0,},
     {"id":{"name":"sprLargeRock","path":"sprites/sprLargeRock/sprLargeRock.yy",},"order":2,},
+    {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},"order":3,},
     {"id":{"name":"sprDebris","path":"sprites/sprDebris/sprDebris.yy",},"order":4,},
+    {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":3,},
     {"id":{"name":"sprPlayerOne","path":"sprites/sprPlayerOne/sprPlayerOne.yy",},"order":0,},
     {"id":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"order":1,},
     {"id":{"name":"sprMediumRock","path":"sprites/sprMediumRock/sprMediumRock.yy",},"order":1,},
@@ -27,7 +30,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
     {"roomId":{"name":"rmRoom","path":"rooms/rmRoom/rmRoom.yy",},},
+    {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
