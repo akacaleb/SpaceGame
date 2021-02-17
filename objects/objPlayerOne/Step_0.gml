@@ -1,5 +1,8 @@
 /// @description player one ship
 
+
+//controls for keyboard and xbox controller
+
 turnLeft = keyboard_check(ord("A")) || gamepad_button_check(0, gp_padl);
 turnRight = keyboard_check(ord("D")) || gamepad_button_check(0, gp_padr);
 strafeLeft = keyboard_check(ord("Q")) || gamepad_button_check(0, gp_shoulderlb);
@@ -8,7 +11,7 @@ goThrusters = keyboard_check(ord("W")) || gamepad_button_check(0, gp_padu);
 stopThrusters = keyboard_check(ord("S")) || gamepad_button_check(0, gp_padd);
 shipShoot = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 
-//MOVEMENT
+// MOVEMENT
 
 if turnLeft //rotate ship to the left
 {
@@ -44,11 +47,14 @@ else
 	friction = 0;	
 }
 
-if shipShoot
+
+// SHOOTING
+if shipShoot // shoot bullet
 {
-	var inst = instance_create_layer(x, y, "Instances", objPlayerOneBullet);
-	inst.direction = image_angle;
+	var _xx = x + lengthdir_x(18, image_angle);  // adjust x position of bullet spawn
+	var _yy = y + lengthdir_y(18, image_angle);  // adjust y position of bullet spawn
+	var inst = instance_create_layer(_xx, _yy, "Instances", objPlayerOneBullet); // spawn bullet at nose
+	inst.direction = image_angle; // bullets shoot the direction ship is flying
 }
 
 move_wrap(true, true, sprite_width/2);
-
