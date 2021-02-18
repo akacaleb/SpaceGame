@@ -2,9 +2,16 @@
 switch (room)
 {
 	case rmRoom:
-		draw_text(20, 20, "Score: " +string(score));
-		draw_text(20, 40, "Lives: " +string(lives));
-		draw_text(20, 60, "High Score: " +string(highScore));
+		
+		for(var i = 0; i < lives - 1; i++)
+		{
+			draw_sprite_ext(sprPlayerOne, 0, 36 + 40 *  i, 36, .75, .75, 90 , image_blend, image_alpha);
+		}
+		draw_set_halign(fa_center)
+		draw_text(objCamera.cameraWidth/2, 20, "Score: " +string(score));
+		draw_set_halign(fa_right)
+		draw_text(objCamera.cameraWidth - 20, 20, "High Score: " +string(highScore));
+		draw_set_halign(fa_center)
 	break;
 	
 	case rmStart:
