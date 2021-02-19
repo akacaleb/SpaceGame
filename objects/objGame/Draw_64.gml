@@ -17,8 +17,8 @@ switch (room)
 	case rmStart:
 		draw_set_halign(fa_center); // center justify it
 		var c = c_yellow // variable to make it yellow
-		draw_text_transformed_color(room_width/2, 100, "Test Space Game", 3, 3, 0, c, c, c, c, 1);
-		draw_text(room_width/2, 200,
+		draw_text_transformed_color(objCamera.cameraWidth/2, 100, "Test Space Game", 3, 3, 0, c, c, c, c, 1);
+		draw_text(objCamera.cameraWidth/2, 200,
 		@"Up or Dpad Up: Thrust
 		Left/Right or Dpad Left/Right: Rotate
 		Space or A: Shoot
