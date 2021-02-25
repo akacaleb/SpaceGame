@@ -22,7 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":40,"eventType":7,"collisionObjectId":null,"parent":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objRocks","path":"objects/objRocks/objRocks.yy",},"parent":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
