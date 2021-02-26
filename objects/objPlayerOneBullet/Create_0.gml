@@ -1,5 +1,4 @@
 /// @description variables and creation
 
-speed = 10;
-
+speed = 15;
 image_angle = objPlayerOne.image_angle;

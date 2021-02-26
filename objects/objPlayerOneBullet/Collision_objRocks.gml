@@ -4,6 +4,7 @@ score += 20 // killing small rocks is 20
 audio_play_sound(sndRockDeath, 1, false);
 
 instance_destroy();
+objGame.totalKills = objGame.totalKills + 1;
 
 with (other)
 {
@@ -34,7 +35,7 @@ with (other)
 
 repeat (30)
 	{
-		instance_create_layer(x, y, "Instances", objDebris);	
+		instance_create_layer(x, y, "Instances", objRockDebris);	
 	}
 
 }

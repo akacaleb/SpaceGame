@@ -11,14 +11,14 @@ if instance_exists(target)
 
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
 
-layer_x("Parallax0", global.cameraX * 1);
-layer_y("Parallax0", global.cameraY * 1);
+layer_x("Parallax0", global.cameraX * 0);
+layer_y("Parallax0", global.cameraY * 0);
 
-layer_x("Parallax1", global.cameraX * 0.98);
-layer_y("Parallax1", global.cameraY * 0.98);
+layer_x("Parallax1", global.cameraX * 0.05);
+layer_y("Parallax1", global.cameraY * 0.05);
 
-layer_x("Parallax2", global.cameraX * 0.96);
-layer_y("Parallax2", global.cameraY * 0.96);
+layer_x("Parallax2", global.cameraX * 0.1);
+layer_y("Parallax2", global.cameraY * 0.1);
 
-layer_x("Parallax3", global.cameraX * 0.94);
-layer_y("Parallax3", global.cameraY * 0.94);
+layer_x("Parallax3", global.cameraX * 0.15);
+layer_y("Parallax3", global.cameraY * 0.15);

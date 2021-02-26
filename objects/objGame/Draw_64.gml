@@ -33,8 +33,11 @@ switch (room)
 	case rmGameOver:
 		draw_set_halign(fa_center); // center justify it
 		var c = c_red // variable to make it yellow
-		draw_text_transformed_color(room_width/2, 150, "Game Over", 3, 3, 0, c, c, c, c, 1);
-		draw_text(room_width/2, 250,"Final Score: " +string(score));
+		draw_text_transformed_color(room_width/2, 100, "Game Over", 3, 3, 0, c, c, c, c, 1);
+		draw_text(room_width/2, 200,"Final Score: " +string(score));
+		draw_text(room_width/2, 225,"Kills: " +string(objGame.totalKills));
+		draw_text(room_width/2, 250,"Shots: " +string(objGame.shotsFired));
+		draw_text(room_width/2, 275,"Accuracy: " +string_format(((objGame.totalKills/objGame.shotsFired)*100), 3, 0) +"%");
 		draw_text(room_width/2, 350,"High Score: " +string(highScore));
 		draw_text(room_width/2, 450,"Press SPACE or A to restart");
 		draw_set_halign(fa_left); //reset the center justify to left justify

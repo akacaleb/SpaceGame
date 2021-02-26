@@ -1,4 +1,5 @@
 /// @description Control rooms
+
 highScore = highscore_value(1);
 highscore_add("", score);
 
