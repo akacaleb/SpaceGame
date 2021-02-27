@@ -1,4 +1,4 @@
-/// @description respawn after 1 second
+a/// @description respawn after 1 second
 
 if room == rmRoom
 {
