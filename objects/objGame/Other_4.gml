@@ -2,8 +2,11 @@
 
 if room == rmRoom
 {
+	instance_create_layer(room_width/2, room_height/2, "Instances", objPlayerSpawn);
 	instance_create_layer(room_width/2, room_height/2, "Instances", objPlayerOne);
-	scrSpawnOffCamera(objRocks, 40);
+}
 
+if room == rmRoom
+{
 	alarm[0] = 60;
 }

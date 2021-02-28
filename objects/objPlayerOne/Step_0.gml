@@ -47,7 +47,7 @@ if stopThrusters && speed > 0 //bring the ship to a stop
 }
 else
 {
-	friction = 0;	
+	friction = .001;	
 }
 
 if speed > playerMaxSpeed

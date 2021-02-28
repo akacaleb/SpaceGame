@@ -5,7 +5,6 @@ if room != rmRoom
 	exit;	
 }
 
-scrSpawnOffCamera(objRocks, 1);
-
+scrSpawnOffCamera(objRocks, 5);
 
 alarm[0] = 1 * room_speed

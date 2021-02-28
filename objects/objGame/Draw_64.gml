@@ -5,10 +5,12 @@ switch (room)
 		
 		for(var i = 0; i < lives - 1; i++)
 		{
-			draw_sprite_ext(sprPlayerOne, 0, 36 + 40 *  i, 36, .75, .75, 90 , image_blend, image_alpha);
+			draw_sprite_ext(sprPlayerOne, 0, 36 + 40 *  i, 36, .50, .50, 90 , image_blend, image_alpha);
 		}
 		draw_set_halign(fa_center);
 		draw_text(global.cameraWidth/2, 20, "Score: " +string(score));
+			draw_set_halign(fa_center);
+		draw_text(global.cameraWidth/2, 40, "player safe: " +string(playerSafe));
 		draw_set_halign(fa_right);
 		draw_text(global.cameraWidth - 20, 20, "High Score: " +string(highScore));
 		draw_set_halign(fa_center);
@@ -23,7 +25,7 @@ switch (room)
 		Left/Right or Dpad Left/Right: Rotate
 		Space or A: Shoot
 		
-		>> Press SPACE or A to start <<
+		>> Press ENTER or START to start <<
 		"
 		);
 		draw_set_halign(fa_left); //reset the center justify to left justify
@@ -36,10 +38,13 @@ switch (room)
 		draw_text_transformed_color(room_width/2, 100, "Game Over", 3, 3, 0, c, c, c, c, 1);
 		draw_text(room_width/2, 200,"Final Score: " +string(score));
 		draw_text(room_width/2, 225,"Kills: " +string(objGame.totalKills));
-		draw_text(room_width/2, 250,"Shots: " +string(objGame.shotsFired));
-		draw_text(room_width/2, 275,"Accuracy: " +string_format(((objGame.totalKills/objGame.shotsFired)*100), 3, 0) +"%");
+		if objGame.totalKills && objGame.shotsFired >= 1
+		{
+			draw_text(room_width/2, 250,"Shots: " +string(objGame.shotsFired));
+			draw_text(room_width/2, 275,"Accuracy: " +string_format(((objGame.totalKills/objGame.shotsFired)*100), 3, 0) +"%");
+		}
 		draw_text(room_width/2, 350,"High Score: " +string(highScore));
-		draw_text(room_width/2, 450,"Press SPACE or A to restart");
+		draw_text(room_width/2, 450,"Press ENTER or START to restart");
 		draw_set_halign(fa_left); //reset the center justify to left justify
 	break;
 }

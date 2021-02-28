@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sprStarfield0","path":"sprites/sprStarfield0/sprStarfield0.yy",},"order":1,},
     {"id":{"name":"objRocks","path":"objects/objRocks/objRocks.yy",},"order":0,},
+    {"id":{"name":"objPlayerSpawn","path":"objects/objPlayerSpawn/objPlayerSpawn.yy",},"order":2,},
     {"id":{"name":"sndRockDeath","path":"sounds/sndRockDeath/sndRockDeath.yy",},"order":0,},
     {"id":{"name":"sprPlayerOneBullet","path":"sprites/sprPlayerOneBullet/sprPlayerOneBullet.yy",},"order":1,},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},"order":1,},
@@ -19,6 +20,7 @@
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":0,},
     {"id":{"name":"sprStarfield2","path":"sprites/sprStarfield2/sprStarfield2.yy",},"order":2,},
     {"id":{"name":"sprPlayerOne","path":"sprites/sprPlayerOne/sprPlayerOne.yy",},"order":0,},
+    {"id":{"name":"sprSpawn","path":"sprites/sprSpawn/sprSpawn.yy",},"order":8,},
     {"id":{"name":"objPlayerDebris","path":"objects/objPlayerDebris/objPlayerDebris.yy",},"order":2,},
     {"id":{"name":"objPlayerOneBullet","path":"objects/objPlayerOneBullet/objPlayerOneBullet.yy",},"order":1,},
     {"id":{"name":"sprEnemyHunter","path":"sprites/sprEnemyHunter/sprEnemyHunter.yy",},"order":1,},
