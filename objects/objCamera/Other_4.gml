@@ -4,8 +4,8 @@ global.cameraX = 0;
 global.cameraY = 0;
 target = objPlayerOne;
 
-global.cameraWidth = 1280;
-global.cameraHeight = 720;
+global.cameraWidth = 960;
+global.cameraHeight = 540;
 
 view_enabled = true;
 view_visible[0] = true;
@@ -23,7 +23,7 @@ if instance_exists(target)
 
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
 
-displayScale = 1;
+displayScale = 1.5;
 displayWidth = global.cameraWidth * displayScale;
 displayHeight = global.cameraHeight * displayScale;
 

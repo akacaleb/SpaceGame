@@ -9,8 +9,6 @@ switch (room)
 		}
 		draw_set_halign(fa_center);
 		draw_text(global.cameraWidth/2, 20, "Score: " +string(score));
-			draw_set_halign(fa_center);
-		draw_text(global.cameraWidth/2, 40, "player safe: " +string(playerSafe));
 		draw_set_halign(fa_right);
 		draw_text(global.cameraWidth - 20, 20, "High Score: " +string(highScore));
 		draw_set_halign(fa_center);
