@@ -9,7 +9,7 @@ strafeLeft = keyboard_check(ord("Q")) || gamepad_button_check(0, gp_shoulderlb);
 strafeRight = keyboard_check(ord("E")) || gamepad_button_check(0, gp_shoulderrb);
 goThrusters = keyboard_check(ord("W")) || gamepad_button_check(0, gp_padu);
 stopThrusters = keyboard_check(ord("S")) || gamepad_button_check(0, gp_padd);
-shipShoot = keyboard_check(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+shipShoot = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
 
 // MOVEMENT
 
