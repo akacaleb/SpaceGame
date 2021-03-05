@@ -19,6 +19,7 @@ function scrCreateBullet(argument0, argument1, argument2){
 		speed = spd;
 		faction = fac;
 		creator = crtr;
+		image_angle = dir;
 		
 	}
 	
