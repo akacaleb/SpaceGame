@@ -65,6 +65,7 @@ if shipShoot && canShoot = true // shoot bullet
 	audio_play_sound(sndPlayerOneShoot, 1, false);
 	canShoot = false;
 	objGame.shotsFired = objGame.shotsFired + 1
+	faction = factions.ally;
 	alarm[0] = room_speed * 0.25;
 }
 

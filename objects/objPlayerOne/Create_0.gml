@@ -1,4 +1,6 @@
 /// @description variables
+event_inherited();
+
 randomise();
 
 audio_sound_gain(sndPlayerOneEngine, .03, 1);

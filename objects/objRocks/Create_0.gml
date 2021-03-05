@@ -1,4 +1,6 @@
 /// @description set up variables
+event_inherited();
+
 randomize();
 
 rockSpin = choose(1, -1);
@@ -9,4 +11,4 @@ direction = irandom_range(0, 359);
 
 image_angle = irandom_range(0, 359);
 
-speed = 1
+speed = 1;

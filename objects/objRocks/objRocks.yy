@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objFactionNeutral",
+    "path": "objects/objFactionNeutral/objFactionNeutral.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

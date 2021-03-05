@@ -23,7 +23,7 @@ if instance_exists(target)
 
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
 
-displayScale = 1.5;
+displayScale = 2;
 displayWidth = global.cameraWidth * displayScale;
 displayHeight = global.cameraHeight * displayScale;
 
