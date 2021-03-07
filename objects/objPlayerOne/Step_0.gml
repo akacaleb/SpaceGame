@@ -58,8 +58,8 @@ if speed > playerMaxSpeed
 // SHOOTING
 if shipShoot && canShoot = true // shoot bullet
 {
-	var _xx = x + lengthdir_x(18, image_angle);  // adjust x position of bullet spawn
-	var _yy = y + lengthdir_y(18, image_angle);  // adjust y position of bullet spawn
+	var _xx = x + lengthdir_x(24, image_angle);  // adjust x position of bullet spawn
+	var _yy = y + lengthdir_y(24, image_angle);  // adjust y position of bullet spawn
 	var inst = instance_create_layer(_xx, _yy, "Instances", objPlayerOneBullet); // spawn bullet at nose
 	inst.direction = image_angle;// bullets shoot the direction ship is flying
 	audio_play_sound(sndPlayerOneShoot, 1, false);
