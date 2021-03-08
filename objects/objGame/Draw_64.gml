@@ -19,8 +19,11 @@ switch (room)
 		var c = c_yellow // variable to make it yellow
 		draw_text_transformed_color(global.cameraWidth/2, 100, "Test Space Game", 3, 3, 0, c, c, c, c, 1);
 		draw_text(global.cameraWidth/2, 200,
-		@"Up or Dpad Up: Thrust
-		Left/Right or Dpad Left/Right: Rotate
+		@"W or Right Trigger: Thrust
+		S or Left Trigger: Reverse
+		Left/Right or Left Stick: Rotate
+		Q/E or LB/RB: Strafe
+		Shift or B: Brake
 		Space or A: Shoot
 		
 		>> Press ENTER or START to start <<

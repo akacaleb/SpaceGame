@@ -3,13 +3,17 @@
 
 //controls for keyboard and xbox controller
 
-turnLeft = keyboard_check(ord("A")) || gamepad_button_check(0, gp_padl);
-turnRight = keyboard_check(ord("D")) || gamepad_button_check(0, gp_padr);
-strafeLeft = keyboard_check(ord("Q")) || gamepad_button_check(0, gp_shoulderlb);
-strafeRight = keyboard_check(ord("E")) || gamepad_button_check(0, gp_shoulderrb);
-goThrusters = keyboard_check(ord("W")) || gamepad_button_check(0, gp_padu);
-stopThrusters = keyboard_check(ord("S")) || gamepad_button_check(0, gp_padd);
+turnLeft = keyboard_check(ord("A"))
+turnRight = keyboard_check(ord("D"))
+strafeLeft = keyboard_check(ord("Q")) || gamepad_button_check(0, gp_shoulderl);
+strafeRight = keyboard_check(ord("E")) || gamepad_button_check(0, gp_shoulderr);
+goThrusters = keyboard_check(ord("W")) || gamepad_button_check(0, gp_shoulderrb);
+reverseThrust = keyboard_check(ord("S")) || gamepad_button_check(0, gp_shoulderlb);
+stopThrusters = keyboard_check(vk_shift) || gamepad_button_check(0, gp_face2);
 shipShoot = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
+
+gamepad_set_axis_deadzone(0, 0.2);
+image_angle -= turnSpeed * gamepad_axis_value(0, gp_axislh);
 
 // MOVEMENT
 
@@ -40,10 +44,16 @@ if goThrusters //accelerate ship forwards
 	motion_add(image_angle, playerSpeed);
 	audio_play_sound(sndPlayerOneEngine, 2, false);
 }
+	
+if reverseThrust //accelerate ship backwards
+{
+	motion_add(image_angle - 180, playerSpeed);
+	audio_play_sound(sndPlayerOneEngine, 2, false);
+}
 
 if stopThrusters && speed > 0 //bring the ship to a stop
 {
-	friction = playerSpeed;
+	friction = playerSpeed * 1.5;
 }
 else
 {

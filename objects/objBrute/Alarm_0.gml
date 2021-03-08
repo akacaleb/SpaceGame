@@ -1,0 +1,3 @@
+/// @description 
+
+dropMines = 1;

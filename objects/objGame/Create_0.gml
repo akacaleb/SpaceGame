@@ -4,7 +4,7 @@ score = 0;
 lives = 3;
 shotsFired = 0;
 totalKills = 0;
-playerSafe = true;
+waitSpawn = 0;
 
 enum factions
 {

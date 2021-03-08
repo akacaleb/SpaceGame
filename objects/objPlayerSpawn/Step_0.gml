@@ -1,10 +1,12 @@
 if place_meeting(x, y, all)
 {
-	image_index = 1;
-	objGame.playerSafe = false;
+	instance_destroy(objPlayerSpawn);
 }
 else
 {
-	image_index = 0;
-	objGame.playerSafe = true;
+	if room == rmRoom {
+		instance_create_layer(x, y, "Instances", objPlayerOne);
+		instance_destroy(objPlayerSpawn);
+		objGame.waitSpawn = 0;
+		}
 }

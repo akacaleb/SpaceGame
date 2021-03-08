@@ -4,7 +4,7 @@ score += 20;
 audio_play_sound(sndRockDeath, 1, false);
 
 instance_destroy();
-
+effect_create_above(ef_explosion, x, y, 4, c_silver);
 	
 if (sprite_index == sprLargeRock)
 {

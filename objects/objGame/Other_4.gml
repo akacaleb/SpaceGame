@@ -2,11 +2,11 @@
 
 if room == rmRoom
 {
-	instance_create_layer(room_width/2, room_height/2, "Instances", objPlayerSpawn);
-	instance_create_layer(room_width/2, room_height/2, "Instances", objPlayerOne);
-	scrSpawnOffCamera(objRaider, 8);
-	scrSpawnOffCamera(objHunter, 10);
-	scrSpawnOffCamera(objBrute, 10);
+	var xx = random_range(430, room_width - 430);
+	var yy = random_range(270, room_height - 270);
+	instance_create_layer(xx, yy, "Instances", objPlayerSpawn);
+	scrSpawnOffCamera(objRaider, 2);
+	scrSpawnOffCamera(objHunter, 1);
 }
 
 if room == rmRoom

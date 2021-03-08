@@ -5,4 +5,5 @@ speed = 1;
 image_speed = 0;
 image_index = 4;
 originalSpeed = speed;
-moveCounter = 0
+moveCounter = 0;
+dropMines = 1;

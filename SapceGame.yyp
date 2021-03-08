@@ -4,6 +4,7 @@
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":3,},
     {"id":{"name":"objRocks","path":"objects/objRocks/objRocks.yy",},"order":0,},
     {"id":{"name":"objPlayerSpawn","path":"objects/objPlayerSpawn/objPlayerSpawn.yy",},"order":2,},
+    {"id":{"name":"sprBruteMines","path":"sprites/sprBruteMines/sprBruteMines.yy",},"order":4,},
     {"id":{"name":"sndRockDeath","path":"sounds/sndRockDeath/sndRockDeath.yy",},"order":0,},
     {"id":{"name":"sprPlayerOneBullet","path":"sprites/sprPlayerOneBullet/sprPlayerOneBullet.yy",},"order":1,},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},"order":1,},
@@ -41,6 +42,7 @@
     {"id":{"name":"sndPlayerOneDeath","path":"sounds/sndPlayerOneDeath/sndPlayerOneDeath.yy",},"order":2,},
     {"id":{"name":"objFactionAlly","path":"objects/objFactionAlly/objFactionAlly.yy",},"order":1,},
     {"id":{"name":"objPlayerOne","path":"objects/objPlayerOne/objPlayerOne.yy",},"order":0,},
+    {"id":{"name":"objBruteMines","path":"objects/objBruteMines/objBruteMines.yy",},"order":4,},
     {"id":{"name":"sprSmallRock","path":"sprites/sprSmallRock/sprSmallRock.yy",},"order":0,},
   ],
   "Options": [

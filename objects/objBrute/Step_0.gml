@@ -11,6 +11,13 @@ if (point_distance(x, y, objPlayerOne.x, objPlayerOne.y) < 250){
 		speed = (lerp(speed, -4, -0.1));
 		direction = image_angle;
 		
+		
+	if dropMines > 0{
+		instance_create_layer(x, y, "Instances", objBruteMines);
+		dropMines = dropMines - 1;
+		alarm[0] = 180;
+	}
+		
 	
 } else
 	{

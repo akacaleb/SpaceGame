@@ -1,9 +1,8 @@
 // if player is inside range
 if(!instance_exists(objPlayerOne)){
-image_index = 1;
-exit;
+	image_index = 1;
+	exit;
 }
-
 
 if (point_distance(x, y, objPlayerOne.x, objPlayerOne.y) < 500){
 		move_towards_point(objPlayerOne.x, objPlayerOne.y, speed);
