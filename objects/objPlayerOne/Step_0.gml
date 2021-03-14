@@ -3,17 +3,62 @@
 
 //controls for keyboard and xbox controller
 
-turnLeft = keyboard_check(ord("A"))
-turnRight = keyboard_check(ord("D"))
+turnLeft = keyboard_check(ord("A"));
+turnRight = keyboard_check(ord("D"));
 strafeLeft = keyboard_check(ord("Q")) || gamepad_button_check(0, gp_shoulderl);
 strafeRight = keyboard_check(ord("E")) || gamepad_button_check(0, gp_shoulderr);
-goThrusters = keyboard_check(ord("W")) || gamepad_button_check(0, gp_shoulderrb);
-reverseThrust = keyboard_check(ord("S")) || gamepad_button_check(0, gp_shoulderlb);
+goThrusters = keyboard_check(ord("W"));
+reverseThrust = keyboard_check(ord("S"));
 stopThrusters = keyboard_check(vk_shift) || gamepad_button_check(0, gp_face2);
 shipShoot = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
 
 gamepad_set_axis_deadzone(0, 0.2);
+gamepad_set_vibration(0, 0, 0);
+
+motion_add(image_angle, playerSpeed * gamepad_button_value(0,gp_shoulderrb));
+	if gamepad_button_value(0,gp_shoulderrb) > 0
+		{
+			gamepad_set_vibration(0, 0.1, 0.3);
+			audio_play_sound(sndPlayerOneEngine, 2, false);	
+		}
+		
+motion_add(image_angle - 180, playerSpeed * gamepad_button_value(0, gp_shoulderlb));
+	if gamepad_button_value(0,gp_shoulderlb) > 0
+		{
+			gamepad_set_vibration(0, 0.3, 0.1);
+			audio_play_sound(sndPlayerOneEngine, 2, false);	
+		}
+
 image_angle -= turnSpeed * gamepad_axis_value(0, gp_axislh);
+	if gamepad_axis_value(0, gp_axislh) < 0
+		{
+			gamepad_set_vibration(0, 0.2 , 0);
+		} 
+	
+	if gamepad_axis_value(0, gp_axislh) > 0
+		{
+			gamepad_set_vibration(0, 0, 0.2);
+		}
+
+if gamepad_button_check(0, gp_face1)
+	{
+		gamepad_set_vibration(0, 1, 1);
+	}
+	
+if gamepad_button_check(0, gp_face2)
+	{
+		gamepad_set_vibration(0, 0.1, 0.1)	
+	}
+
+if gamepad_button_check(0, gp_shoulderl)
+	{
+		gamepad_set_vibration(0, 0.3, 0);
+	}
+
+if gamepad_button_check(0, gp_shoulderr)
+	{
+		gamepad_set_vibration(0, 0, 0.3);
+	}
 
 // MOVEMENT
 
@@ -62,8 +107,9 @@ else
 
 if speed > playerMaxSpeed
 {
-	speed = abs(10);	
+	speed = abs(playerMaxSpeed);	
 }
+
 
 // SHOOTING
 if shipShoot && canShoot = true // shoot bullet

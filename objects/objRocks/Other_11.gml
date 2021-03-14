@@ -13,6 +13,7 @@ if (sprite_index == sprLargeRock)
 	{
 		var newRock = instance_create_layer(x, y, "Instances", objRocks);
 		newRock.sprite_index = sprMediumRock;
+		
 		newRock.speed = 1.5;
 	}
 } 

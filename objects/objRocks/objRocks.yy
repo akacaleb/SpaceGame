@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprLargeRock",
-    "path": "sprites/sprLargeRock/sprLargeRock.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

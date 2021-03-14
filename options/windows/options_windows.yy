@@ -1,6 +1,6 @@
 {
   "option_windows_display_name": "Created with GameMaker Studio 2",
-  "option_windows_executable_name": "${SpaceGame}.exe",
+  "option_windows_executable_name": "Test Space Game",
   "option_windows_version": "1.0.0.0",
   "option_windows_company_info": "Small Engine Game",
   "option_windows_product_info": "Created with GameMaker Studio 2",
