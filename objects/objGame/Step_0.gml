@@ -22,7 +22,11 @@ if (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_start
 	
 if (room == rmRoom)
 {
-
+	if !instance_exists(objLevelSpawner){
+		instance_create_layer(0, 0,"Instances", objLevelSpawner);	
+	}
+		
+	
 	if !instance_exists(objPlayerOne) && !instance_exists(objPlayerSpawn){
 		waitSpawn--
 		if waitSpawn <= 0{
@@ -32,6 +36,10 @@ if (room == rmRoom)
 		}
 	}
 	
+if score = extraLife
+{
+	lives = lives + 1; extraLife = extraLife * 10;	
+}
 	
 	if (lives <= 0)
 	{
@@ -40,4 +48,9 @@ if (room == rmRoom)
 		room_goto(rmGameOver);
 		}
 	}
+}
+
+if !instance_exists(objPlayerOne)
+{
+	gamepad_set_vibration(0, 0, 0);	
 }

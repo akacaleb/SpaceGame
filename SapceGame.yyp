@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sprStarfield0","path":"sprites/sprStarfield0/sprStarfield0.yy",},"order":1,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":3,},
+    {"id":{"name":"sndMainMenu","path":"sounds/sndMainMenu/sndMainMenu.yy",},"order":3,},
     {"id":{"name":"objRocks","path":"objects/objRocks/objRocks.yy",},"order":0,},
     {"id":{"name":"objPlayerSpawn","path":"objects/objPlayerSpawn/objPlayerSpawn.yy",},"order":2,},
     {"id":{"name":"sprBruteMines","path":"sprites/sprBruteMines/sprBruteMines.yy",},"order":4,},
@@ -24,6 +25,7 @@
     {"id":{"name":"sprSmallRock","path":"sprites/sprSmallRock/sprSmallRock.yy",},"order":6,},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":1,},
     {"id":{"name":"sndPlayerOneEngine","path":"sounds/sndPlayerOneEngine/sndPlayerOneEngine.yy",},"order":1,},
+    {"id":{"name":"objLevelSpawner","path":"objects/objLevelSpawner/objLevelSpawner.yy",},"order":9,},
     {"id":{"name":"sprPlayerDebris","path":"sprites/sprPlayerDebris/sprPlayerDebris.yy",},"order":2,},
     {"id":{"name":"sprStarfield1","path":"sprites/sprStarfield1/sprStarfield1.yy",},"order":3,},
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":0,},
