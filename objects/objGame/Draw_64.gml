@@ -29,6 +29,7 @@ switch (room)
 		Left/Right or Left Stick: Rotate
 		Q/E or LB/RB: Strafe
 		Shift or B: Brake
+		ALT or X: Use Power Up
 		Space or A: Shoot
 		
 		>> Press ENTER or START to start <<
