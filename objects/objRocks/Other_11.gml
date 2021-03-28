@@ -5,6 +5,12 @@ audio_play_sound(sndRockDeath, 1, false);
 
 instance_destroy();
 effect_create_above(ef_explosion, x, y, 4, c_silver);
+			var powerdrop = irandom_range(1, 100);
+
+			if !instance_exists(objShieldPowerup) && powerdrop <= 25
+			{
+				instance_create_layer(x, y, "Instances", objShieldPowerup);
+			}
 	
 if (sprite_index == sprLargeRock)
 {

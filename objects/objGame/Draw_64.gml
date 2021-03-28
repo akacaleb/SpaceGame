@@ -7,6 +7,11 @@ switch (room)
 		{
 			draw_sprite_ext(sprPlayerOne, 0, 36 + 40 *  i, 36, .50, .50, 90 , image_blend, image_alpha);
 		}
+		if shieldPowerUp = true
+			{
+				draw_sprite_ext(sprShieldCollect, 0, 36, 65, .60, .60, 0, image_blend, image_alpha);
+				havePowerup = true;
+			} else {havePowerup = false}
 		draw_set_halign(fa_center);
 		draw_text(global.cameraWidth/2, 20, "Score: " +string(score));
 		draw_set_halign(fa_right);

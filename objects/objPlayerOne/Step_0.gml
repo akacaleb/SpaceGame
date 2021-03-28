@@ -11,6 +11,7 @@ goThrusters = keyboard_check(ord("W"));
 reverseThrust = keyboard_check(ord("S"));
 stopThrusters = keyboard_check(vk_shift) || gamepad_button_check(0, gp_face2);
 shipShoot = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
+usePowerUp = keyboard_check(vk_alt) || gamepad_button_check(0, gp_face3);
 
 gamepad_set_axis_deadzone(0, 0.2);
 gamepad_set_vibration(0, 0, 0);
@@ -123,6 +124,16 @@ if shipShoot && canShoot = true // shoot bullet
 	objGame.shotsFired = objGame.shotsFired + 1
 	faction = factions.ally;
 	alarm[0] = room_speed * 0.25;
+}
+
+//powerup
+
+if usePowerUp && shieldActive = false && objGame.shieldPowerUp = true
+{
+	instance_create_layer(objPlayerOne.x, objPlayerOne.y,"Instances", objShield);
+	objGame.shieldPowerUp = false;
+	objGame.havePowerup = false;
+	shieldActive = true;
 }
 
 move_wrap(true, true, sprite_width/2);

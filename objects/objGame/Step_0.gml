@@ -47,7 +47,8 @@ if score = extraLife
 		if waitSpawn <= 0{
 		room_goto(rmGameOver);
 		}
-	}
+	}	
+	
 }
 
 if !instance_exists(objPlayerOne)
