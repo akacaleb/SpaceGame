@@ -3,11 +3,11 @@ event_inherited();
 
 randomize();
 
-largeRockImage = irandom_range(0, 5);
+largeRockImage = irandom_range(0, 12);
 
-mediumRockImage = irandom_range(0, 4);
+mediumRockImage = irandom_range(0, 12);
 
-smallRockImage = irandom_range(0, 3);
+smallRockImage = irandom_range(0, 12);
 
 rockSpin = choose(1, -1);
 

@@ -29,7 +29,7 @@ if (point_distance(x, y, objPlayerOne.x, objPlayerOne.y) < 500){
 	
 		bulletCounter++;
 		if (bulletCounter >= 60){
-				scrCreateBullet(16, 16, image_angle, bulletSpeed, faction);
+				scrCreateBullet(6, 6, image_angle, bulletSpeed, faction);
 				bulletCounter = 0;
 		}
 		
