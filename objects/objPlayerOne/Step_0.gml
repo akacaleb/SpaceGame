@@ -16,21 +16,28 @@ usePowerUp = keyboard_check(vk_alt) || gamepad_button_check(0, gp_face3);
 gamepad_set_axis_deadzone(0, 0.2);
 gamepad_set_vibration(0, 0, 0);
 
+image_index = sign(gamepad_axis_value(0, gp_axislh)) + 1;
+
 motion_add(image_angle, playerSpeed * gamepad_button_value(0,gp_shoulderrb));
 	if gamepad_button_value(0,gp_shoulderrb) > 0
 		{
 			gamepad_set_vibration(0, 0.1, 0.3);
-			audio_play_sound(sndPlayerOneEngine, 2, false);	
+			audio_play_sound(sndPlayerOneEngine, 2, false);
 		}
 		
 motion_add(image_angle - 180, playerSpeed * gamepad_button_value(0, gp_shoulderlb));
 	if gamepad_button_value(0,gp_shoulderlb) > 0
 		{
 			gamepad_set_vibration(0, 0.3, 0.1);
-			audio_play_sound(sndPlayerOneEngine, 2, false);	
+			audio_play_sound(sndPlayerOneEngine, 2, false);
 		}
 
 image_angle -= turnSpeed * gamepad_axis_value(0, gp_axislh);
+
+if strafeLeft {image_index = 0;}
+if strafeRight {image_index = 2;}
+
+
 	if gamepad_axis_value(0, gp_axislh) < 0
 		{
 			gamepad_set_vibration(0, 0.2 , 0);
