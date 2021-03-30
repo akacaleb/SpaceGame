@@ -73,11 +73,13 @@ if gamepad_button_check(0, gp_shoulderr)
 if turnLeft //rotate ship to the left
 {
 	image_angle += turnSpeed;
+	image_index--;
 }
 
 if turnRight //rotate ship to the right
 {
 	image_angle -= turnSpeed;
+	image_index++;
 }
 
 if strafeLeft //strafe ship to the left
