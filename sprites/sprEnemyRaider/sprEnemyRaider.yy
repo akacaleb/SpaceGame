@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"547cf31a-064e-43ae-9b8b-c1d053f7f3d2","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"547cf31a-064e-43ae-9b8b-c1d053f7f3d2","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":{"name":"1da5c4e4-0524-4363-9c2f-984ef1d8f846","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"547cf31a-064e-43ae-9b8b-c1d053f7f3d2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7bed9381-2ae6-4b73-90c1-526731688580","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7bed9381-2ae6-4b73-90c1-526731688580","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":{"name":"1da5c4e4-0524-4363-9c2f-984ef1d8f846","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"7bed9381-2ae6-4b73-90c1-526731688580","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8097ebf2-5a68-41f8-942f-105eb36bc6be","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8097ebf2-5a68-41f8-942f-105eb36bc6be","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":{"name":"1da5c4e4-0524-4363-9c2f-984ef1d8f846","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"8097ebf2-5a68-41f8-942f-105eb36bc6be","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4327e1e0-3e8a-4a11-82e7-1ac07296ae7b","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4327e1e0-3e8a-4a11-82e7-1ac07296ae7b","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":{"name":"c3c47fb7-ab6e-4104-bfbe-36405e592836","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"4327e1e0-3e8a-4a11-82e7-1ac07296ae7b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9501308a-5914-4a3f-9a91-279589c3847d","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9501308a-5914-4a3f-9a91-279589c3847d","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":{"name":"c3c47fb7-ab6e-4104-bfbe-36405e592836","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"9501308a-5914-4a3f-9a91-279589c3847d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a7e6ed63-ce5f-4628-a1f8-332c22cf0392","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a7e6ed63-ce5f-4628-a1f8-332c22cf0392","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"LayerId":{"name":"c3c47fb7-ab6e-4104-bfbe-36405e592836","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","name":"a7e6ed63-ce5f-4628-a1f8-332c22cf0392","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprEnemyRaider","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c41c9a87-99a1-4b20-a3cd-12a0b69eedff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"547cf31a-064e-43ae-9b8b-c1d053f7f3d2","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a85b7918-1278-4e53-9382-a995558e3e30","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7bed9381-2ae6-4b73-90c1-526731688580","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5e47f3de-e6f7-4a7d-9277-816728c429ae","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8097ebf2-5a68-41f8-942f-105eb36bc6be","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ffc1cd0c-6523-44b5-8d72-48e4bba23f5e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4327e1e0-3e8a-4a11-82e7-1ac07296ae7b","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1cc7cbf2-b804-4697-90ad-b76fde55cf7c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9501308a-5914-4a3f-9a91-279589c3847d","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"47214563-6199-4cfb-8e4d-0c7bd6253d85","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7e6ed63-ce5f-4628-a1f8-332c22cf0392","path":"sprites/sprEnemyRaider/sprEnemyRaider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -73,8 +73,9 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1da5c4e4-0524-4363-9c2f-984ef1d8f846","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c3c47fb7-ab6e-4104-bfbe-36405e592836","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Enemies",
     "path": "folders/Sprites/Enemies.yy",
