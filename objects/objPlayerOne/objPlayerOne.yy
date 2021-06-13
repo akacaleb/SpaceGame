@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objFactionAlly",
+    "path": "objects/objFactionAlly/objFactionAlly.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
