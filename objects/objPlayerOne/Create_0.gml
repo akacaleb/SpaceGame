@@ -12,5 +12,6 @@ turnSpeed = 5;
 playerSpeed = 0.1;
 playerMaxSpeed = 5;
 canShoot = true;
+playerThrust = false;
 
 shieldActive = false;

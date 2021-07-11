@@ -99,6 +99,13 @@ if goThrusters //accelerate ship forwards
 	motion_add(image_angle, playerSpeed);
 	audio_play_sound(sndPlayerOneEngine, 2, false);
 }
+
+if goThrusters && playerThrust = false
+{
+	instance_create_layer(x + lengthdir_x(-15, image_angle), y + lengthdir_y(0, image_angle), "Instances", objPlayerThrust);  // adjust y position of bullet spawn
+	image_angle = objPlayerOne.image_angle;
+	playerThrust = true;
+}
 	
 if reverseThrust //accelerate ship backwards
 {

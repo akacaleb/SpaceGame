@@ -4,6 +4,7 @@ audio_play_sound(sndPlayerOneDeath, 1, false);
 
 instance_destroy(); // remove player
 instance_destroy(objPlayerOneBullet); // remove bullets after death
+instance_destroy(objPlayerThrust);
 
 objGame.alarm[1] = 90
 

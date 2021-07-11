@@ -5,6 +5,7 @@ if(!instance_exists(objPlayerOne)){
 }
 
 if (point_distance(x, y, objPlayerOne.x, objPlayerOne.y) < 500){
+		
 		move_towards_point(objPlayerOne.x, objPlayerOne.y, speed);
 		var steps_ahead = 10;
 		var targetx = objPlayerOne.x+lengthdir_x(steps_ahead*objPlayerOne.speed,objPlayerOne.direction);
@@ -13,6 +14,7 @@ if (point_distance(x, y, objPlayerOne.x, objPlayerOne.y) < 500){
 		var bank = sign(angle_difference(image_angle, newangle));
 		newangle = image_angle - angle_difference(image_angle, newangle);
 		image_angle = lerp(image_angle, newangle, 0.04);
+		direction = image_angle;
 		
 		var bank = sign(angle_difference(image_angle, newangle));	
 
