@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b1685038-e1e1-4326-bd59-e9355c477aae","path":"sprites/sprBackground/sprBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b1685038-e1e1-4326-bd59-e9355c477aae","path":"sprites/sprBackground/sprBackground.yy",},"LayerId":{"name":"1c54fb74-24c9-48ba-bc03-4f4bd436e8a2","path":"sprites/sprBackground/sprBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},"resourceVersion":"1.0","name":"b1685038-e1e1-4326-bd59-e9355c477aae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6add7da9-253e-4d15-91c4-83769660a65a","path":"sprites/sprParallax0/sprParallax0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6add7da9-253e-4d15-91c4-83769660a65a","path":"sprites/sprParallax0/sprParallax0.yy",},"LayerId":{"name":"869c9305-5cb7-4e60-8522-8efa082b1a73","path":"sprites/sprParallax0/sprParallax0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprParallax0","path":"sprites/sprParallax0/sprParallax0.yy",},"resourceVersion":"1.0","name":"6add7da9-253e-4d15-91c4-83769660a65a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},
+    "spriteId": {"name":"sprParallax0","path":"sprites/sprParallax0/sprParallax0.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"89c7ed2c-79e8-4157-82b8-3bb76b67ea8d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1685038-e1e1-4326-bd59-e9355c477aae","path":"sprites/sprBackground/sprBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e851d44f-25e5-48b4-b518-8f0cdce87fd3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6add7da9-253e-4d15-91c4-83769660a65a","path":"sprites/sprParallax0/sprParallax0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},
+    "parent": {"name":"sprParallax0","path":"sprites/sprParallax0/sprParallax0.yy",},
     "resourceVersion": "1.3",
-    "name": "sprBackground",
+    "name": "sprParallax0",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c54fb74-24c9-48ba-bc03-4f4bd436e8a2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"869c9305-5cb7-4e60-8522-8efa082b1a73","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Background.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprBackground",
+  "name": "sprParallax0",
   "tags": [],
   "resourceType": "GMSprite",
 }
